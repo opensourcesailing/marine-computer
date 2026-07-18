@@ -1,39 +1,141 @@
 # ⚓ Open Source Sailing Marine Computer
 
-## Open-source onboard computer platform
+## An open-source onboard computer platform
 
-The Open Source Sailing Marine Computer is a project to develop an open, modular and affordable onboard computing platform for sailing vessels.
+The Open Source Sailing Marine Computer is a modular, open and affordable computing platform designed for sailing vessels.
 
-## Vision
+The goal is to connect navigation, sensors, communication systems and automation using open-source software and open standards.
 
-Create a reliable marine computer based on open-source software, open hardware and community collaboration.
+---
 
-## Planned Features
+# Vision
 
-- Linux onboard system
-- OpenCPN navigation
-- Signal K marine data server
-- MQTT communication
-- NMEA0183 integration
-- NMEA2000 integration
-- AIS support
-- SDR capabilities
-- Sensor integration
-- Boat automation
-- Data logging and visualization
+Create a reliable onboard computer that gives sailors control over their own marine technology.
 
-## Hardware
+The system should be:
 
-Future hardware documentation will include:
+- Open
+- Repairable
+- Expandable
+- Affordable
+- Community-driven
 
-- Computer platform
+---
+
+# Core Platform
+
+The marine computer is designed around:
+
+## 🐧 Operating System
+
+- Linux LTS
+- Ubuntu
+- Debian-based systems
+
+---
+
+## 🧭 Navigation
+
+- OpenCPN
+- Electronic charts
+- GPS integration
+- AIS
+- Route planning
+
+---
+
+## 🌊 Marine Data
+
+- Signal K
+- NMEA0183
+- NMEA2000
+- MQTT
+- Sensor networks
+
+---
+
+## ⚙️ Automation
+
+Future integrations:
+
+- Node-RED
+- Home Assistant
+- Grafana
+- InfluxDB
+
+---
+
+## 📡 Communication
+
+Planned support:
+
+- WiFi
+- Ethernet
+- Bluetooth
+- SDR
+- LoRa
+
+---
+
+# Hardware Concept
+
+Possible platforms:
+
+- Raspberry Pi
+- Mini PC
+- ARM computers
+- Low-power marine computers
+
+Future hardware development may include:
+
 - Power management
-- Interfaces
-- Sensors
-- Communication modules
+- Marine interfaces
+- Custom PCB modules
+- Rugged enclosures
 
-## Status
+---
 
-🚧 Project in early development phase.
+# Software Architecture
 
-More documentation and prototypes will be added as development progresses.
+Marine Computer
+
+Linux LTS
+
+├── OpenCPN
+├── Signal K Server
+├── MQTT Broker
+├── Node-RED
+├── Grafana
+├── InfluxDB
+├── Docker
+├── AIS
+├── SDR
+└── AI Assistant
+
+
+---
+
+# Development Status
+
+🚧 Early concept and architecture phase.
+
+Future development will include:
+
+- Hardware selection
+- Software installation scripts
+- Testing
+- Documentation
+- Community feedback
+
+---
+
+# Philosophy
+
+A boat should not become obsolete because technology changes.
+
+Open Source Sailing aims to extend the life of vessels through open and connected systems.
+
+---
+
+**Code. Sail. Share. Connect.**
+
